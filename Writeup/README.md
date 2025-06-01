@@ -4,6 +4,8 @@
 此为原来预期解的Writeup，但是由于各位师傅的神力以及程序本身的漏洞等原因，出现了很多比预期更快更方便的解法
 ```
 
+可以在这里[locked door](https://github.com/mufeng05/locked-door)看到程序的源码
+
 查看题目附件发现加了vmp壳，且存在反调试，运行调试会被检测弹窗退出，正常运行后提示key1正确但是key2错误
 ![locked-door](./Image/img13.PNG)
 
