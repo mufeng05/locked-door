@@ -428,6 +428,6 @@ static BOOL APIENTRY DllMain(HMODULE hModule,
 }
 ```
 
-使用x64dbg加载编译出来的`hook-memcpy.dll`（需要等程序完全释放出来，即到达OEP之后加载dll），最终获取到flag
+将新生成的key2.bin替换原来的key2.bin，再使用x64dbg加载编译出来的`hook-memcpy.dll`（需要等程序完全释放出来，即到达OEP之后加载dll），最终获取到flag
 ![hook-memcpy](./Image/img11.PNG)
 ![flag](./Image/img12.PNG)
