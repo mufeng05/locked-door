@@ -20,7 +20,6 @@ In x64dbg, set a breakpoint for the `GetSystemTimeAsFileTime` function, successf
 > ![IAT](./Image/img4.PNG)
 
 At the same time, when I dynamically called in x64dbg, I found a string similar to the RSA public key
-
 ![RSA](./Image/img6.PNG)
 
 Use IDA to open the dumped program and understand the general running process of the program, which is to read a key, decrypt the key (magic AES), and then verify the key with the public key, and use the RSA2048_SHA256 verification algorithm. This key is actually the signature
